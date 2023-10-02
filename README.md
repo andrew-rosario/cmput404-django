@@ -13,3 +13,6 @@ At the ```/polls``` directory, it shows the line, "Hello, world. You're at the p
 
 ##### Question 4
 Django migrations synchronizes the changes by your models to your database. We need them because the website is expecting certain fields from the database. Thus, Django migrations handle the database schema modifications for you, regardless of what database you choose.
+
+##### Question 5
+I'm assuming you create your model in the models.py file, then you go into the admin.py file and register your new model. (I think a Django migration is needed for this to work, to add the new model to the DBMS).
