@@ -10,3 +10,6 @@ It gives me a webpage that says "The install worked successfully! Congratulation
 At the root ```/```, it says that the page cannot be found (HTTP response code 404).
 
 At the ```/polls``` directory, it shows the line, "Hello, world. You're at the polls index."
+
+##### Question 4
+Django migrations synchronizes the changes by your models to your database. We need them because the website is expecting certain fields from the database. Thus, Django migrations handle the database schema modifications for you, regardless of what database you choose.
