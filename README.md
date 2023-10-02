@@ -16,3 +16,8 @@ Django migrations synchronizes the changes by your models to your database. We n
 
 ##### Question 5
 I'm assuming you create your model in the models.py file, then you go into the admin.py file and register your new model. (I think a Django migration is needed for this to work, to add the new model to the DBMS).
+
+##### Question 6
+It shows "You're looking at Question 38." Then, "You're looking at the results of question 38." Then, "You're voting on question 38."
+
+To allow alphanumeric characters, change the accepted content type to string. (```<str:question_name>```)
