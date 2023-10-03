@@ -21,3 +21,6 @@ I'm assuming you create your model in the models.py file, then you go into the a
 It shows "You're looking at Question 38." Then, "You're looking at the results of question 38." Then, "You're voting on question 38."
 
 To allow alphanumeric characters, change the accepted content type to string. (```<str:question_name>```)
+
+##### Question 7
+We might change the name of the polls. Or the resource might not exist in that location anymore.
