@@ -24,3 +24,10 @@ To allow alphanumeric characters, change the accepted content type to string. (`
 
 ##### Question 7
 We might change the name of the polls. Or the resource might not exist in that location anymore.
+
+##### Question 8
+Let's be real, the benefit is... why not?
+
+But seriously. Some views are generic as is. Question fields are question fields. Voting fields are voting fields. Detail fields are detail fields. And so on. I don't see a need for 'reinventing the wheel' if it already exists in some form. 
+
+We shouldn't use a generic view if the generic view will not suffice for our usecase, or if we want to extend the capabilities of the views beyond overriding their attributes. 
